@@ -1,0 +1,13 @@
+.cascader{
+  display: flex;
+  justify-content: space-between;
+  .row{
+    transition: .2s;
+  }
+  .col {
+
+    &.picked {
+      color: #00a6ff;
+    }
+  }
+}
